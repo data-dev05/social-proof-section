@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#prueba {
+  text-align: center;
+  border: 1px solid red;
+  width: 50%;
+}
+
+#prueba-2 {
+  border: 1px solid green;
+  display: flex;
+  flex-direction: column;
+}
+
+#user {
+  display: flex;
+  align-items: center;
+}
+
+/*# sourceMappingURL=styles.css.map */

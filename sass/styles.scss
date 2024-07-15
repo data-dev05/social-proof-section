@@ -1,0 +1,24 @@
+@use "./variables" as *;
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#prueba {
+    text-align: center;
+    border: 1px solid red;
+    width: 50%;
+}
+
+#prueba-2 {
+    border: 1px solid green;
+    display: flex;
+    flex-direction: column;
+}
+
+#user {
+    display: flex;
+    align-items: center;
+}
