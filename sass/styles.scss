@@ -6,19 +6,13 @@
     box-sizing: border-box;
 }
 
-#prueba {
-    text-align: center;
-    border: 1px solid red;
-    width: 50%;
+body {
+  background-color: $White;
+  position: relative;
+  display: flex;
+  justify-content: center;
 }
 
-#prueba-2 {
-    border: 1px solid green;
-    display: flex;
-    flex-direction: column;
-}
-
-#user {
-    display: flex;
-    align-items: center;
+main {
+    width: 90%;
 }
