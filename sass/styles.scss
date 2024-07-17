@@ -25,13 +25,11 @@ main {
   width: 100%;
   
   &-top {
-    // border: 1px solid red;
     top: 0;
     left: 0;
   }
 
   &-bottom {
-    // border: 1px solid green;
     bottom: 0;
     right: 0;
   }
@@ -48,10 +46,6 @@ h1 {
   width: 80%;
   margin: auto;
   font-weight: 700;
-
-  &:hover {
-    color: red;
-  }
 }
 
 #satisfaction-summary {
@@ -60,8 +54,4 @@ h1 {
   font-weight: 500;
   line-height: 1.2rem;
   font-size: 0.8rem;
-
-  &:hover {
-    color: red;
-  }
 }
