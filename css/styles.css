@@ -10,10 +10,53 @@ body {
   position: relative;
   display: flex;
   justify-content: center;
+  font-size: 15px;
+  padding: 5rem 0;
+  font-family: "League Spartan", sans-serif;
 }
 
 main {
   width: 90%;
+}
+
+.bg {
+  position: absolute;
+  width: 100%;
+}
+.bg-top {
+  top: 0;
+  left: 0;
+}
+.bg-bottom {
+  bottom: 0;
+  right: 0;
+}
+
+h1,
+#satisfaction-summary,
+#ratings {
+  text-align: center;
+}
+
+h1 {
+  color: hsl(300, 43%, 22%);
+  width: 80%;
+  margin: auto;
+  font-weight: 700;
+}
+h1:hover {
+  color: red;
+}
+
+#satisfaction-summary {
+  margin: 1rem 0 2rem 0;
+  color: hsl(303, 10%, 53%);
+  font-weight: 500;
+  line-height: 1.2rem;
+  font-size: 0.8rem;
+}
+#satisfaction-summary:hover {
+  color: red;
 }
 
 /*# sourceMappingURL=styles.css.map */

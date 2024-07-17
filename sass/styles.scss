@@ -11,8 +11,57 @@ body {
   position: relative;
   display: flex;
   justify-content: center;
+  font-size: $Font-size;
+  padding: 5rem 0;
+  font-family: $Family-League-Spartan;
 }
 
 main {
     width: 90%;
+}
+
+.bg {
+  position: absolute;
+  width: 100%;
+  
+  &-top {
+    // border: 1px solid red;
+    top: 0;
+    left: 0;
+  }
+
+  &-bottom {
+    // border: 1px solid green;
+    bottom: 0;
+    right: 0;
+  }
+}
+
+h1,
+#satisfaction-summary,
+#ratings {
+  text-align: center;
+}
+
+h1 {
+  color: $Very-Dark-Magenta;
+  width: 80%;
+  margin: auto;
+  font-weight: 700;
+
+  &:hover {
+    color: red;
+  }
+}
+
+#satisfaction-summary {
+  margin: 1rem 0 2rem 0;
+  color: $Dark-Grayish-Magenta;
+  font-weight: 500;
+  line-height: 1.2rem;
+  font-size: 0.8rem;
+
+  &:hover {
+    color: red;
+  }
 }
