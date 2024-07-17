@@ -34,8 +34,7 @@ main {
   right: 0;
 }
 
-h1,
-#satisfaction-summary,
+#header,
 #ratings {
   text-align: center;
 }
@@ -109,6 +108,77 @@ h1 {
   line-height: 1.5rem;
   font-weight: 400;
   font-size: 1.11rem;
+}
+
+@media (min-width: 769px) {
+  body {
+    height: 100vh;
+    padding: 0;
+    align-items: center;
+  }
+  main {
+    max-width: none;
+    max-height: 90%;
+    display: grid;
+    grid-template-columns: 40% auto;
+    grid-template-rows: repeat(2, auto);
+    grid-template-areas: "header ratings" "proofs proofs";
+  }
+  .bg-top {
+    width: 45vw;
+  }
+  .bg-bottom {
+    width: 75vw;
+  }
+  #header {
+    grid-area: header;
+    text-align: start;
+  }
+  h1 {
+    margin: 0;
+    font-size: 3rem;
+  }
+  #ratings {
+    grid-area: ratings;
+    margin-bottom: 0;
+    justify-content: center;
+    align-items: end;
+  }
+  #ratings div {
+    width: 75%;
+    max-width: 400px;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+  }
+  #ratings div:nth-child(1) {
+    margin-right: 10rem;
+  }
+  #ratings div:nth-child(2) {
+    margin-right: 5rem;
+  }
+  #ratings div img {
+    width: 0.8rem;
+    height: 1rem;
+    margin-right: 0.5rem;
+  }
+  #ratings div p {
+    margin-top: 0;
+    margin-left: 1.5rem;
+  }
+  #proofs {
+    grid-area: proofs;
+    flex-direction: row;
+  }
+  #proofs div:nth-child(2) {
+    margin-top: 1rem;
+  }
+  #proofs div:nth-child(3) {
+    margin-top: 2rem;
+  }
+  .proof-content {
+    height: 90%;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
